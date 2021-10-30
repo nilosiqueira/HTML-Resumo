@@ -1,0 +1,54 @@
+<!--
+    HiperLinks - Elementos âncora : <a>
+
+        + Anatomia
+
+        + Atributos: 
+            - globais
+            - href
+                - para onde iremos, quando clicarmos no link
+                    - url completa
+                    - fragmento
+                    - email
+                    - telefone
+                    - e outros.
+            - download
+            - target
+                - _self (padrão)
+                - _blank
+-->
+
+<!--Fragmento faz referencia para o id levando até o conteudo inserido com id selecionado-->
+<ul style="display: flex; justify-content: center; margin: 12px; list-style-type: none;">
+    <li style="margin-right: 12px;"><a href="#home">Home</a></li>
+    <li style="margin-right: 12px;"><a href="#sobre">Sobre</a></li>
+    <li style="margin-right: 12px;"><a href="#contato">Contato</a></li>
+</ul>
+<hr>
+
+<ul>
+    <!-- Usamos o _blank para abrir em outra aba do navegador-->
+    <li><a href="https://www.google.com.br/" title="ir para o google" target="_blank">Website Google link blank</a></li>
+    <!-- Usamos o _self para abrir na aba atual do navegador-->
+    <li><a href="https://www.google.com.br/" title="ir para o google" target="_self">Website Google link self</a></li>
+    <!--Usamos o email para abrir o email direto no gerenciador de email do computador-->
+    <li><a href="mailto:emailtext@gmail.com" title="abrir gerenciado de email">Enviar email</a></li>
+    <!--Usamos o tel no href para abri para discagem para o número -->
+    <li><a href="tel:+5524999554332" title="ligar para o telefone">Telefone</a></li>
+</ul>
+
+<div style="height: 500px; background-color: darkseagreen;"  id="home">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus, 
+    omnis consequatur necessitatibus ducimus dicta perspiciatis a ratione deserunt
+     praesentium. Quam necessitatibus itaque corrupti in nulla nesciunt natus animi odio!
+</div>
+<div style="height: 500px; background-color: lightblue;" id="sobre">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus, 
+    omnis consequatur necessitatibus ducimus dicta perspiciatis a ratione deserunt
+     praesentium. Quam necessitatibus itaque corrupti in nulla nesciunt natus animi odio!
+</div>
+<div style="height: 500px; background-color: lightsteelblue;" id="contato">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus, 
+    omnis consequatur necessitatibus ducimus dicta perspiciatis a ratione deserunt
+     praesentium. Quam necessitatibus itaque corrupti in nulla nesciunt natus animi odio!
+</div>
