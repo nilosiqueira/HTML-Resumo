@@ -1,0 +1,27 @@
+.div1 {
+    display: flex ;
+    justify-content: center;
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid black ;
+    width: 45%;
+}
+img {
+    width: 100px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.paragrafo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 1px solid black;
+    line-height: 1.9;
+}
