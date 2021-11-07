@@ -25,3 +25,17 @@ footer {
     border-radius: 1px solid black;
     line-height: 1.9;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li{
+    list-style: none;
+}
