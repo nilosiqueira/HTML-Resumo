@@ -17,7 +17,13 @@ a anatomia do html é composta basicamente por
 <title>Meu Titulo da guia do Navegador</title>
 </head>
 <body>
+<div>
 <h1>Hello World!</h1>
+<p><strong>Lorem Ipsum</strong> sobreviveu não só a cinco séculos, como
+            também ao salto para a editoração eletrônica, permanecendo
+            essencialmente inalterado. Se popularizou na década de 60,
+            quando a Letraset lançou decalques contendo passag </p>
+</div>
 </body>
 </html>
 ```
