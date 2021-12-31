@@ -28,7 +28,7 @@ a anatomia do html é composta basicamente por
 </html>
 ```
 
-##Tag video
+## Tag video
 
 ```html
  <video width="320" height="240" controls>
